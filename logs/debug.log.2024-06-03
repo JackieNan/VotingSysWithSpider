@@ -1,0 +1,1024 @@
+2024-06-03 13:13:13 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '职位计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '职位计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '职位计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '职位计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [职位计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'PdzB0Wbq9zNTi7ZS0vsLVir0Kkp7Vna6rsd4jya2M1UeyIb32GLcPv9usxHlzygp'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fcac8d6ec20>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fcac9ebfc40>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 1, 'voted_voters_count': 1, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [1, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7fcac8d13c70>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c250>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c4f0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c790>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c820>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 13:13:13 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '候选人计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '候选人计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '候选人计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '候选人计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [候选人计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'PdzB0Wbq9zNTi7ZS0vsLVir0Kkp7Vna6rsd4jya2M1UeyIb32GLcPv9usxHlzygp'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fcac8d6ec20>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fcac9ebfc40>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 1, 'voted_voters_count': 1, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [1, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7fcac8d13c70>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c250>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c4f0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c790>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c820>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 13:13:13 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '投票计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '投票计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '投票计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '投票计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [投票计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'PdzB0Wbq9zNTi7ZS0vsLVir0Kkp7Vna6rsd4jya2M1UeyIb32GLcPv9usxHlzygp'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fcac8d6ec20>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fcac9ebfc40>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 1, 'voted_voters_count': 1, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [1, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7fcac8d13c70>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c250>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c4f0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c790>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c820>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 13:13:13 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '已投票选民计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '已投票选民计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '已投票选民计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '已投票选民计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [已投票选民计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'PdzB0Wbq9zNTi7ZS0vsLVir0Kkp7Vna6rsd4jya2M1UeyIb32GLcPv9usxHlzygp'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fcac8d6ec20>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fcac9ebfc40>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 1, 'voted_voters_count': 1, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [1, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7fcac8d13c70>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c250>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c4f0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c790>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c820>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 13:13:13 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'forloop' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'forloop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'forloop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'forloop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [forloop] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'PdzB0Wbq9zNTi7ZS0vsLVir0Kkp7Vna6rsd4jya2M1UeyIb32GLcPv9usxHlzygp'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7fcac8d6ec20>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7fcac9ebfc40>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 1, 'voted_voters_count': 1, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [1, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7fcac8d13c70>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c250>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c4f0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c790>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7fcac8d6c820>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 13:13:14 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern '' [name='account_login']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern 'register/' [name='account_register']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern 'logout/' [name='account_logout']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) 'account/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'administrator.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/administrator/urls.py'> (None:None) 'administrator/'>], [<URLResolver <module 'voting.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/voting/urls.py'> (None:None) 'voting/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) 'account/'>
+2024-06-03 13:13:14 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern '' [name='account_login']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern 'register/' [name='account_register']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern 'logout/' [name='account_logout']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) 'account/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'administrator.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/administrator/urls.py'> (None:None) 'administrator/'>], [<URLResolver <module 'voting.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/voting/urls.py'> (None:None) 'voting/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <URLPattern list> (admin:admin) 'admin/'>
+2024-06-03 13:13:14 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern '' [name='account_login']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern 'register/' [name='account_register']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern 'logout/' [name='account_logout']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) 'account/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'administrator.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/administrator/urls.py'> (None:None) 'administrator/'>], [<URLResolver <module 'voting.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/voting/urls.py'> (None:None) 'voting/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'administrator.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/administrator/urls.py'> (None:None) 'administrator/'>
+2024-06-03 13:13:14 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 165, in _get_response
+    callback, callback_args, callback_kwargs = self.resolve_request(request)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 288, in resolve_request
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/jn/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 576, in resolve
+    raise Resolver404({'tried': tried, 'path': new_path})
+django.urls.exceptions.Resolver404: {'tried': [[<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern '' [name='account_login']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern 'register/' [name='account_register']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) ''>, <URLPattern 'logout/' [name='account_logout']>], [<URLResolver <module 'account.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/account/urls.py'> (None:None) 'account/'>], [<URLResolver <URLPattern list> (admin:admin) 'admin/'>], [<URLResolver <module 'administrator.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/administrator/urls.py'> (None:None) 'administrator/'>], [<URLResolver <module 'voting.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/voting/urls.py'> (None:None) 'voting/'>], [<URLPattern '^media/(?P<path>.*)$'>]], 'path': 'favicon.ico'}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+TypeError: 'URLResolver' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 837, in _resolve_lookup
+    current = getattr(current, bit)
+AttributeError: 'URLResolver' object has no attribute 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [name] in <URLResolver <module 'voting.urls' from '/mnt/c/Users/JackieNan/Projects/votingsystem/voting/urls.py'> (None:None) 'voting/'>
+2024-06-03 13:31:17 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'page_title' in template 'voting/voter/ballot.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [page_title] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'AYHo1vSaZYMPwvrOENINE6FDxjN1YGMdtkN49JeBHe6Qw6M5XLGCbEXPsC7IyvgQ'>, 'request': <WSGIRequest: GET '/voting/ballot/vote'>, 'user': <SimpleLazyObject: <CustomUser: 束 奕成>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204e17b970>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204e1b8310>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'ballot': '<div class="row">\t<div class="col-xs-12"><div class="box box-solid" id="1">\n             <div class="box-header with-border">\n            <h3 class="box-title"><b>q</b></h3></div>\n        <div class="box-body">\n        <p>你最多可以选 10 名候选人\n        <span class="pull-right">\n        <button type="button" class="btn btn-success btn-sm btn-flat reset" data-desc="q"><i class="fa fa-refresh"></i> 重置</button>\n        </span>\n        </p>\n        <div id="candidate_list">\n        <ul>\n        <li><input type="checkbox" value="2" class="flat-red q" name="q[]"><button type="button" class="btn btn-primary btn-sm btn-flat clist platform" data-fullname="a" data-bio="aa"><i class="fa fa-search"></i> 简介</button><img src="/media/candidates/头像_Xh0zk01.JPG" height="100px" width="100px" class="clist"><span class="cname clist">a</span></li><li><input type="checkbox" value="3" class="flat-red q" name="q[]"><button type="button" class="btn btn-primary btn-sm btn-flat clist platform" data-fullname="b" data-bio="bb"><i class="fa fa-search"></i> 简介</button><img src="/media/candidates/头像_CJQ1BJs.JPG" height="100px" width="100px" class="clist"><span class="cname clist">b</span></li>\n        </ul>\n        </div>\n        </div>\n        </div>\n        </div>\n        </div>\n        '}]
+2024-06-03 13:31:17 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'page_title' in template 'voting/voter/ballot.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [page_title] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'AYHo1vSaZYMPwvrOENINE6FDxjN1YGMdtkN49JeBHe6Qw6M5XLGCbEXPsC7IyvgQ'>, 'request': <WSGIRequest: GET '/voting/ballot/vote'>, 'user': <SimpleLazyObject: <CustomUser: 束 奕成>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204e17b970>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204e1b8310>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'ballot': '<div class="row">\t<div class="col-xs-12"><div class="box box-solid" id="1">\n             <div class="box-header with-border">\n            <h3 class="box-title"><b>q</b></h3></div>\n        <div class="box-body">\n        <p>你最多可以选 10 名候选人\n        <span class="pull-right">\n        <button type="button" class="btn btn-success btn-sm btn-flat reset" data-desc="q"><i class="fa fa-refresh"></i> 重置</button>\n        </span>\n        </p>\n        <div id="candidate_list">\n        <ul>\n        <li><input type="checkbox" value="2" class="flat-red q" name="q[]"><button type="button" class="btn btn-primary btn-sm btn-flat clist platform" data-fullname="a" data-bio="aa"><i class="fa fa-search"></i> 简介</button><img src="/media/candidates/头像_Xh0zk01.JPG" height="100px" width="100px" class="clist"><span class="cname clist">a</span></li><li><input type="checkbox" value="3" class="flat-red q" name="q[]"><button type="button" class="btn btn-primary btn-sm btn-flat clist platform" data-fullname="b" data-bio="bb"><i class="fa fa-search"></i> 简介</button><img src="/media/candidates/头像_CJQ1BJs.JPG" height="100px" width="100px" class="clist"><span class="cname clist">b</span></li>\n        </ul>\n        </div>\n        </div>\n        </div>\n        </div>\n        </div>\n        '}]
+2024-06-03 13:36:47 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'page_title' in template 'voting/voter/result.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [page_title] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'IIIxoP2cLT3co7dLBvyOI3RvfpcjM5m7B4Odw3oDt9ndoIy2UtwDfB9HaIw0mUQK'>, 'request': <WSGIRequest: GET '/voting/dashboard/'>, 'user': <SimpleLazyObject: <CustomUser: 束 奕成>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204e17a320>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204e11b670>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'my_votes': <QuerySet [<Votes: Votes object (2)>]>}]
+2024-06-03 13:36:47 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'page_title' in template 'voting/voter/result.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'page_title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [page_title] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'IIIxoP2cLT3co7dLBvyOI3RvfpcjM5m7B4Odw3oDt9ndoIy2UtwDfB9HaIw0mUQK'>, 'request': <WSGIRequest: GET '/voting/dashboard/'>, 'user': <SimpleLazyObject: <CustomUser: 束 奕成>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204e17a320>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204e11b670>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'my_votes': <QuerySet [<Votes: Votes object (2)>]>}]
+2024-06-03 13:38:24 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '职位计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '职位计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '职位计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '职位计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [职位计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'fRa5DoqfW4PMVLeGF6Hn9NFkxl1mDPiSHJfpjEux6i9jrzOStwPe5wDmQmgBg4ih'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204cf4e2f0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204d087cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 2, 'voted_voters_count': 2, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [2, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7f204d087d30>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7f204d0840d0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7f204d0876a0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7f204e11a140>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7f204cf4e410>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 13:38:24 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '候选人计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '候选人计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '候选人计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '候选人计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [候选人计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'fRa5DoqfW4PMVLeGF6Hn9NFkxl1mDPiSHJfpjEux6i9jrzOStwPe5wDmQmgBg4ih'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204cf4e2f0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204d087cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 2, 'voted_voters_count': 2, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [2, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7f204d087d30>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7f204d0840d0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7f204d0876a0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7f204e11a140>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7f204cf4e410>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 13:38:24 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '投票计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '投票计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '投票计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '投票计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [投票计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'fRa5DoqfW4PMVLeGF6Hn9NFkxl1mDPiSHJfpjEux6i9jrzOStwPe5wDmQmgBg4ih'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204cf4e2f0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204d087cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 2, 'voted_voters_count': 2, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [2, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7f204d087d30>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7f204d0840d0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7f204d0876a0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7f204e11a140>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7f204cf4e410>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 13:38:24 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '已投票选民计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '已投票选民计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '已投票选民计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '已投票选民计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [已投票选民计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'fRa5DoqfW4PMVLeGF6Hn9NFkxl1mDPiSHJfpjEux6i9jrzOStwPe5wDmQmgBg4ih'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204cf4e2f0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204d087cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 2, 'voted_voters_count': 2, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [2, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7f204d087d30>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7f204d0840d0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7f204d0876a0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7f204e11a140>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7f204cf4e410>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 13:38:24 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'forloop' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'forloop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'forloop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'forloop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [forloop] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'fRa5DoqfW4PMVLeGF6Hn9NFkxl1mDPiSHJfpjEux6i9jrzOStwPe5wDmQmgBg4ih'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204cf4e2f0>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204d087cd0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 2, 'voted_voters_count': 2, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [2, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7f204d087d30>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7f204d0840d0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7f204d0876a0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7f204e11a140>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7f204cf4e410>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 13:45:42 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204e1960b0>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:45:42 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204e1960b0>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:45:43 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204d0632b0>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:45:43 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204d0632b0>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:46:16 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204c2bbd30>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:46:16 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204c2bbd30>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:46:16 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204e1b8880>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:46:16 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204e1b8880>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:46:19 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204c124c40>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:46:19 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204c124c40>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:46:20 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204cededa0>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 13:46:20 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'title' in template 'admin/print.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'Context' has no attribute 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'title'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [title] in [{'True': True, 'False': False, 'None': None}, {'view': <administrator.views.PrintView object at 0x7f204cededa0>, 'positions': {'q': {'candidate_data': [{'name': 'a', 'votes': 2}, {'name': 'b', 'votes': 0}], 'winner': 'a with 2 votes, &nbsp;b with 0 votes', 'max_vote': 10}}}]
+2024-06-03 14:18:35 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '职位计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '职位计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '职位计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '职位计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [职位计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'viD9PZvsHZ4CMIYrNKsStaTiWIpOqnJqXaItvfzKRdo9iwyDBaAJpTRkfJE33CJP'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204cf29a80>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204c1a3ee0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 2, 'voted_voters_count': 2, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [2, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7f204cf282b0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7f204cf2ab00>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7f203febafe0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7f204c142fb0>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7f204c140100>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 14:18:35 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '候选人计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '候选人计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '候选人计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '候选人计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [候选人计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'viD9PZvsHZ4CMIYrNKsStaTiWIpOqnJqXaItvfzKRdo9iwyDBaAJpTRkfJE33CJP'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204cf29a80>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204c1a3ee0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 2, 'voted_voters_count': 2, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [2, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7f204cf282b0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7f204cf2ab00>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7f203febafe0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7f204c142fb0>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7f204c140100>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 14:18:35 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '投票计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '投票计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '投票计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '投票计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [投票计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'viD9PZvsHZ4CMIYrNKsStaTiWIpOqnJqXaItvfzKRdo9iwyDBaAJpTRkfJE33CJP'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204cf29a80>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204c1a3ee0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 2, 'voted_voters_count': 2, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [2, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7f204cf282b0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7f204cf2ab00>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7f203febafe0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7f204c142fb0>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7f204c140100>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 14:18:35 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable '已投票选民计数' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: '已投票选民计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute '已投票选民计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: '已投票选民计数'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [已投票选民计数] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'viD9PZvsHZ4CMIYrNKsStaTiWIpOqnJqXaItvfzKRdo9iwyDBaAJpTRkfJE33CJP'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204cf29a80>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204c1a3ee0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 2, 'voted_voters_count': 2, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [2, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7f204cf282b0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7f204cf2ab00>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7f203febafe0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7f204c142fb0>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7f204c140100>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
+2024-06-03 14:18:35 django.template  /home/jn/.local/lib/python3.10/site-packages/django/template/base.py:869 base:_resolve_lookup DEBUG- Exception while resolving variable 'forloop' in template 'admin/home.html'.
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 829, in _resolve_lookup
+    current = current[bit]
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'forloop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 835, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(type(current), bit):
+AttributeError: type object 'RequestContext' has no attribute 'forloop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 843, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'forloop'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/jn/.local/lib/python3.10/site-packages/django/template/base.py", line 848, in _resolve_lookup
+    raise VariableDoesNotExist("Failed lookup for key "
+django.template.base.VariableDoesNotExist: Failed lookup for key [forloop] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'viD9PZvsHZ4CMIYrNKsStaTiWIpOqnJqXaItvfzKRdo9iwyDBaAJpTRkfJE33CJP'>, 'request': <WSGIRequest: GET '/administrator/'>, 'user': <SimpleLazyObject: <CustomUser: System Administrator>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x7f204cf29a80>, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x7f204c1a3ee0>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}, 'TITLE': '班级选举'}, {}, {'position_count': 1, 'candidate_count': 2, 'voters_count': 2, 'voted_voters_count': 2, 'positions': <QuerySet [<Position: q>]>, 'chart_data': {<Position: q>: {'candidates': ['a', 'b'], 'votes': [2, 0], 'pos_id': 1}}, 'page_title': '主页'}, {'block': <Block Node: content. Contents: [<TextNode: '\n<!-- Main content -->\n  '>, <Variable Node: 职位计数>, <TextNode: '</h3>\n              <p>职位'>, <django.template.defaulttags.URLNode object at 0x7f204cf282b0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 候选人计数>, <TextNode: '</h3>          \n         '>, <django.template.defaulttags.URLNode object at 0x7f204cf2ab00>, <TextNode: '" class="small-box-footer'>, <Variable Node: 投票计数>, <TextNode: '</h3>             \n      '>, <django.template.defaulttags.URLNode object at 0x7f203febafe0>, <TextNode: '" class="small-box-footer'>, <Variable Node: 已投票选民计数>, <TextNode: '</h3>\n              <p>已投'>, <django.template.defaulttags.URLNode object at 0x7f204c142fb0>, <TextNode: '" class="small-box-footer'>, <django.template.defaulttags.URLNode object at 0x7f204c140100>, <TextNode: '" class="btn btn-success '>, <ForNode: for position in positions, tail_len: 9>, <TextNode: '\n     '>, <IfNode>, <TextNode: '\n      </section>\n      \n'>]>}]
