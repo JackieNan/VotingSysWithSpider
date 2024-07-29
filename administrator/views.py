@@ -8,7 +8,8 @@ from django.http import JsonResponse, HttpResponse
 from django.conf import settings
 import json  # Not used
 from django_renderpdf.views import PDFView
-
+import time
+import os
 
 def find_n_winners(data, n):
     """Read More
@@ -391,3 +392,16 @@ def resetVote(request):
     Voter.objects.all().update(voted=False, verified=False, otp=None)
     messages.success(request, "所有投票已经重置")
     return redirect(reverse('viewVotes'))
+
+def deleteAllCandidates(request):
+    if request.method=="POST":
+        print("done")
+    try:
+        values=request.POST.getlist('candidate')
+        for i in values:
+            if i != '':
+                can = Candidate.objects.get(id=i)
+                can.delete()
+    except:
+        messages.error(request, "拒绝访问此资源的权限")
+    return redirect(reverse('viewCandidates'))

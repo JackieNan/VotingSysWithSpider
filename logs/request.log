@@ -9,3 +9,912 @@
 2024-07-25 02:43:28 django.request  /home/jn/.local/lib/python3.10/site-packages/django/utils/log.py:224 log:log_response WARNING- Not Found: /media/
 2024-07-25 02:46:43 django.request  /home/jn/.local/lib/python3.10/site-packages/django/utils/log.py:224 log:log_response WARNING- Not Found: /media/
 2024-07-25 02:46:43 django.request  /home/jn/.local/lib/python3.10/site-packages/django/utils/log.py:224 log:log_response WARNING- Not Found: /media/
+2024-07-28 11:47:05 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /favicon.ico
+2024-07-29 01:32:36 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /favicon.ico
+2024-07-29 01:37:48 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 01:38:01 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 01:47:17 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 01:53:44 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:02:41 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:02:58 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:22:37 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:22:37 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /favicon.ico
+2024-07-29 02:22:51 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:23:09 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:23:16 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:23:22 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:23:26 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:23:32 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:23:41 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:23:46 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:25:31 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:25:34 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:26:05 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:26:27 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:26:35 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:27:54 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:31:33 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:31:39 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 02:31:45 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 03:33:58 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /favicon.ico
+2024-07-29 03:55:01 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 03:55:06 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 04:12:41 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 04:20:28 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 04:22:26 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:07:21 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:08:42 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:13:27 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:21:05 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:22:57 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:38:36 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:40:45 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:43:00 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:43:03 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:45:20 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteall' not found. 'deleteall' is not a valid view function or pattern name.
+2024-07-29 08:47:14 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:52:04 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:53:03 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:56:40 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:56:44 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:59:25 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 08:59:33 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 09:00:44 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 09:00:50 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 09:01:02 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 09:02:26 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 09:02:29 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/deleteall/
+2024-07-29 09:03:28 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1/administrator/candidate/deleteall
+2024-07-29 09:04:04 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1/administrator/candidate/deleteall
+2024-07-29 09:07:42 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1/administrator/candidate/deleteall
+2024-07-29 09:22:21 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1:8000/administrator/candidate/deleteall
+2024-07-29 09:23:42 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1:8000/administrator/candidate/deleteall
+2024-07-29 09:24:43 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1:8000/administrator/candidate/deleteall
+2024-07-29 09:25:46 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1:8000/administrator/candidate/deleteall
+2024-07-29 09:26:41 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1:8000/administrator/candidate/deleteall
+2024-07-29 09:27:04 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1:8000/administrator/candidate/deleteall
+2024-07-29 09:27:16 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1:8000/administrator/candidate/deleteall
+2024-07-29 09:27:53 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /administrator/candidate/127.0.0.1:8000/administrator/candidate/deleteall
+2024-07-29 09:35:50 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_candidates' not found. 'delete_candidates' is not a valid view function or pattern name.
+2024-07-29 09:36:14 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_candidates' not found. 'delete_candidates' is not a valid view function or pattern name.
+2024-07-29 09:38:49 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteall' not found. 'deleteall' is not a valid view function or pattern name.
+2024-07-29 09:39:18 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'candidate/deleteall/' not found. 'candidate/deleteall/' is not a valid view function or pattern name.
+2024-07-29 09:40:19 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'candidate/deleteall/' not found. 'candidate/deleteall/' is not a valid view function or pattern name.
+2024-07-29 09:40:22 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'candidate/deleteall/' not found. 'candidate/deleteall/' is not a valid view function or pattern name.
+2024-07-29 09:47:20 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'delete_candidates' not found. 'delete_candidates' is not a valid view function or pattern name.
+2024-07-29 09:47:32 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'deleteall' not found. 'deleteall' is not a valid view function or pattern name.
+2024-07-29 09:48:17 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'candidate/deleteall' not found. 'candidate/deleteall' is not a valid view function or pattern name.
+2024-07-29 09:48:18 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 270, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'candidate/deleteall' not found. 'candidate/deleteall' is not a valid view function or pattern name.
+2024-07-29 09:55:38 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 271, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '' not found. '' is not a valid view function or pattern name.
+2024-07-29 10:00:32 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 271, in viewCandidates
+    return render(request, "admin/candidates.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/template/defaulttags.py", line 479, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'voters' not found. 'voters' is not a valid view function or pattern name.
+2024-07-29 10:22:21 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /voters/
+2024-07-29 10:23:04 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /candidate/
+2024-07-29 11:39:42 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /candidate/
+2024-07-29 11:48:15 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 11:48:24 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /candidate
+2024-07-29 11:49:28 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 11:49:30 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response ERROR- Internal Server Error: /administrator/candidate/deleteall
+Traceback (most recent call last):
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/VotingSysWithSpider/administrator/views.py", line 409, in deleteAllCandidates
+    return redirect('candidate')
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 49, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/shortcuts.py", line 180, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/urls/resolvers.py", line 851, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'candidate' not found. 'candidate' is not a valid view function or pattern name.
+2024-07-29 11:50:17 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 11:50:18 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /candidate
+2024-07-29 11:51:30 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 11:51:43 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 11:51:48 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 11:52:46 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 11:52:48 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 12:39:52 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /media/
+2024-07-29 13:14:07 django.request  /home/jn/Project/VotingSysWithSpider/lib/python3.12/site-packages/django/utils/log.py:241 log:log_response WARNING- Not Found: /favicon.ico

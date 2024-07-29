@@ -7,10 +7,19 @@
 <div class="box-header with-border">
   <a href="#addnew" data-toggle="modal" class="btn btn-primary btn-sm btn-flat"><i
           class="fa fa-plus"></i> 新建</a>
+  <!-- <a onclick="getValues()" href="" class="btn btn-danger input-sm">批量删除</a> -->
+
+  <!--        <a href="#deleteall" data-toggle="modal" class="btn btn-danger btn-sm btn-flat"><i
+          class="fa fa-trash"></i> 批量删除</a>
+  -->
 </div>
 <div class="box-body">
+  <form action="{% url 'deleteAllCandidates' %}" method="post">
+    {% csrf_token %}
   <table id="example1" class="table table-bordered">
       <thead>
+        <th width="1"><input type="checkbox" id="checkAll"  onclick="checkAll()"></th>
+
           <th>全名</th>
           <th>职位</th>
           <th>个人简介</th>
@@ -19,22 +28,26 @@
       </thead>
       <tbody>
     {% for candidate in candidates %}
-      
+    
     <tr>
-      <td>{{ candidate.fullname }}</td>
-      <td>{{ candidate.position }}</td>
-      <td>{{ candidate.bio }}</td>
-      <td><img src="/media/{{ candidate.photo }}" width="80" height="80" alt="{{ candidate.fullname }}'s Avatar" class="img img-fluid"></td>
       
+        <td><input type="checkbox" value="{{candidate.id}}" name="candidate"></td>
+        <td>{{ candidate.fullname }}</td>
+        <td>{{ candidate.position }}</td>
+        <td>{{ candidate.bio }}</td>
+        <td><img src="/media/{{ candidate.photo }}" width="80" height="80" alt="{{ candidate.fullname }}'s Avatar" class="img img-fluid"></td>
+
       <td>
         <button class='btn btn-success btn-sm edit btn-flat' data-id='{{ candidate.id }}'><i class='fa fa-edit'></i> 编辑</button>
         <button class='btn btn-danger btn-sm delete btn-flat' data-id='{{ candidate.id }}'><i class='fa fa-trash'></i> 删除</button>
       </td>
     </tr>
-    {% endfor %}      
-
-                            </tbody>
+    {% endfor %} 
+         
+    <button type="submit">批量删除</button>
+      </tbody>
   </table>
+</form>
 </div>
 </div>
 </div>
@@ -169,6 +182,63 @@
          
       });
   }
+  function checkAll() {
+    var all = document.getElementById("checkAll");
+
+    if (all.checked == true) {
+        var ones = document.getElementsByName("candidate");
+        for (var i = 0; i <= ones.length; i++) {
+            ones[i].checked = true;
+        }
+    } else {
+        var ones = document.getElementsByName("candidate");
+        for (var i = 0; i <= ones.length; i++) {
+            ones[i].checked = false;
+        }
+    }
+  }
+
+  function checkOne() {
+      var one=document.getElementsByName("candidate");
+      one.checked=true;
+  }
+
+  function getValues() {
+    var valArr=[];
+    var ones=document.getElementsByName('candidate');
+    for (var i=0;i<ones.length;i++){
+        if (ones[i].checked==true){
+            valArr[i]=ones[i].value
+        }
+    }
+    window.alert(valArr.length);
+
+    if (valArr.length!=0){
+        // var vals = valArr.join(',');
+        // alert(valArr);
+        $.ajax({
+            url:"127.0.0.1:8000/administrator/candidate/deleteall",
+            type:'POST',
+            contenType:'json',
+            traditional:true,
+            async: true,
+            data:{
+                'vals':valArr
+            },
+            success:function(){
+
+                alert("删除成功");
+            },
+            error:function(){
+                alert("删除失败");
+            }
+        })
+    }
+    else {
+        var error_m="请选择数据";
+        alert(error_m);
+    }
+}
   </script>
 {% endblock custom_js %}
   
